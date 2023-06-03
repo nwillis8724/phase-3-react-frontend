@@ -25,4 +25,6 @@ function DevCards({dev, onDeleteDev}){
     )
 }
 
+//delete button for test purposes 
+
 export default DevCards

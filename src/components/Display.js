@@ -5,6 +5,7 @@ import DevCards from "./DevCards";
 function Display({games, onDeleteGame, onDeleteDev, onUpdateGames, devs}){
     const [displayFilter, setDisplayFilter] = useState("Games")
     
+    console.log(games[0])
 
    return (
     <div>
