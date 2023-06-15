@@ -38,8 +38,6 @@ function GameCard({game, onDeleteGame, onUpdateGames}){
             price: price
         };
 
-        // console.log(updatedGame)
-
         fetch(`http://localhost:3001/games/${game.id}`,{
             method: "PATCH",
             headers: {

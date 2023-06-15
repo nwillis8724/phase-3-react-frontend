@@ -29,10 +29,6 @@ function App() {
     setDevs([...devs, newDev])
   }
 
-  // useEffect(() => {
-  //   console.log("games has been updated")
-  // }, [games])
-
   function onDeleteGame(deletedGame) {
     setGames((prevGames) => prevGames.filter((game) => game.id !== deletedGame.id));
   }
